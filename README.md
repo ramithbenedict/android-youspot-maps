@@ -23,8 +23,8 @@
 		
 ## Partie serveur : 
 			
-	on a utiliser wampServer (mysql et php) pour l'authentification et l'inscription et la vérification des données saisie par l'utilisateur de l'application.
-	pour la configuration on met l'adresse IP du serveur dans la class java appConfig.
+	- On a utiliser wampServer (mysql et php) pour l'authentification et l'inscription et la vérification des données saisie par l'utilisateur de l'application.
+	- Pour la configuration on met l'adresse IP du serveur dans la class java appConfig.
 
 ## Scénario de l'application :		
 
