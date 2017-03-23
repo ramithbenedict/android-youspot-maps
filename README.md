@@ -20,7 +20,12 @@
 		RAMITH BENEDICT : Implémentation de l'API Google Maps et sa partie Front END
 		HATHAT MOHAMMED : Collecte des données des installations sportifs et le développement du back end de la partie GEOLOCALISATION
 		MAJERDI AHMED : Importation des données des installations sur le MAPS, et le développement de la partie historique des réservation (NON INTEGRE à cause du manque de temps)
-				
+		
+## Partie serveur : 
+			
+	on a utiliser wampServer (mysql et php) pour l'authentification et l'inscription et la vérification des données saisie par l'utilisateur de l'application.
+	pour la configuration on met l'adresse IP du serveur dans la class java appConfig.
+
 ## Scénario de l'application :		
 
 	1- Authentification via Réseau wifi:	
