@@ -1,19 +1,3 @@
-/*
- * Copyright 2013 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package com.google.maps.android.utils.demo.activity;
 
 import android.graphics.Bitmap;
@@ -41,17 +25,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/**
- * Demonstrates heavy customisation of the look of rendered clusters.
- */
 public class CustomMarkerClusteringDemoActivity extends BaseDemoActivity implements ClusterManager.OnClusterClickListener<Salle>, ClusterManager.OnClusterInfoWindowClickListener<Salle>, ClusterManager.OnClusterItemClickListener<Salle>, ClusterManager.OnClusterItemInfoWindowClickListener<Salle> {
     private ClusterManager<Salle> mClusterManager;
     private Random mRandom = new Random(1984);
 
-    /**
-     * Draws profile photos inside markers (using IconGenerator).
-     * When there are multiple people in the cluster, draw multiple photos (using MultiDrawable).
-     */
+
     private class SalleRenderer extends DefaultClusterRenderer<Salle> {
         private final IconGenerator mIconGenerator = new IconGenerator(getApplicationContext());
         private final IconGenerator mClusterIconGenerator = new IconGenerator(getApplicationContext());
